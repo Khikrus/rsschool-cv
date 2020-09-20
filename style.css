@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    width: 80%;
+    max-width: 1024px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 330%;
+    line-height: 110%;
+}
+
+h2 {
+    font-weight: bold;
+    color: #104cc4;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+
+.date {
+    color: #777777;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 24px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header p,
+header p a,
+a {
+    color: black;
+}
+
+.photo,
+.title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.photo {
+    --photo-size: 150px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.contacts {
+    margin: 0;
+
+    font-style: italic;
+    font-size: 80%;
+    line-height: 160%;
+    white-space: pre-wrap;
+}
+
+ul.contacts {
+    white-space: normal;
+}
+
+.contacts img {
+    vertical-align: middle;
+    width: 18px;
+}
+
+.date {
+    display: block;
+    font-style: italic;
+    font-size: 70%;
+}
+
+.main-education {
+    padding: 20px;
+    background-color: #F8F7F5;
+    color: black;
+}
